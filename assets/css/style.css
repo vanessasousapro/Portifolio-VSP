@@ -1,0 +1,20 @@
+
+.body__home{
+background-color:white
+}
+
+.header {
+    border: 1px solid red;
+    font-family:"Manrope", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foto__header{
+    border: 1px solid red;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    box-sizing: border-box;
+}
