@@ -1,20 +1,22 @@
-
-.body__home{
-background-color:white
+.body__home {
+    background-color: grey
 }
 
 .header {
     border: 1px solid red;
-    font-family:"Manrope", sans-serif;
+    font-family: "Manrope", sans-serif;
     display: flex;
-    justify-content: center;
+    justify-content: end;
     align-items: center;
+    line-height: 50%;
+    margin-right: 30px;
 }
 
-.foto__header{
-    border: 1px solid red;
-    height: 30px;
-    width: 30px;
-    border-radius: 50%;
-    box-sizing: border-box;
+.foto__header {
+    display: flex;
+    justify-content: start;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    margin-right: 60px;
 }
