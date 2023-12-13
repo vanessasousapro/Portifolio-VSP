@@ -2,6 +2,11 @@
     background-color: black
 }
 
+img {
+    height: 100%;
+    width: 100%;
+}
+
 .header {
     font-family: "Manrope", sans-serif;
     display: flex;
@@ -14,6 +19,11 @@
 .header a {
     text-decoration: none;
     color: white;
+}
+
+.header:hover a {
+    color: blueviolet;
+    /*ajustar quando passar o mouse mostrar hover apenas em uma palavra por vez*/
 }
 
 .menu {
@@ -32,9 +42,10 @@
 .paragrafo__principal {
     font-family: "Manrope", sans-serif;
     color: white;
-    font-size: 20px;
+    font-size: 30px;
     text-align: left;
     margin-left: 80px;
+    margin-right: 80px;
 }
 
 b {
@@ -50,6 +61,10 @@ b {
     border-radius: 25px;
     margin-left: 100px;
     margin-top: 50px;
+}
+
+.botao:hover {
+    color: blueviolet;
 }
 
 .botao a {
