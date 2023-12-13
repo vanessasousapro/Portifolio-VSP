@@ -3,11 +3,11 @@
 }
 
 .header {
-    border: 1px solid red;
     font-family: "Manrope", sans-serif;
     display: flex;
     justify-content: end;
-    margin: 20px; /*Aumentar aqui*/
+    margin: 20px;
+    /*Aumentar aqui*/
     align-items: center;
 }
 
@@ -20,7 +20,7 @@
     word-spacing: 20px;
 }
 
-/*Colocar Propriedades da foto aqui*/
+/*Colocar Propriedades da foto aqui (Não esquecer de criar a classe no html)*/
 
 .titulo__home {
     font-family: "Manrope", sans-serif;
@@ -39,4 +39,19 @@
 
 b {
     color: blueviolet;
+}
+
+.botao {
+    background-color: white;
+    font-size: 20px;
+    font-weight: 600;
+    display: inline-block;
+    padding: 16px 32px;
+    border-radius: 25px;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+.botao a {
+    text-decoration: none;
 }
