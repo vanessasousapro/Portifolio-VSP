@@ -11,6 +11,7 @@ body {
 }
 
 .container__principal {
+    width: 100%;
     background-image: url("../imagens/imagem-home-portifolio.png");
     background-size: cover;
     background-position: center;
