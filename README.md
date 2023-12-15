@@ -1,6 +1,8 @@
 #  <p align="center"> 💻 </p> <p align="center">Portifólio - Vanessa Sousa</p>
 
  <p align="center"><b>Portifólio profissional para apresentação de projetos e carreira profissional.</b></p>
+
+![Texto Alternativo](/imagens/imagem-home-portifolio.png)
  
 ## 🗂sesões
 
