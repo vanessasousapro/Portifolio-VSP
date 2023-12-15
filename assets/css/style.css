@@ -1,18 +1,26 @@
+
+body {
+    background-color: black;
+}
+
 .body__home {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
     background-color: black
 }
 
-img {
-    height: 100%;
-    width: 100%;
+.container__principal {
+    background-image: url("../imagens/imagem-home-portifolio.png");
+    background-size: cover;
+    background-position: center;
 }
 
 .header {
     font-family: "Manrope", sans-serif;
     display: flex;
     justify-content: end;
-    margin: 20px;
-    /*Aumentar aqui*/
+    margin: 20px; /*Aumentar aqui*/
     align-items: center;
 }
 
@@ -30,7 +38,12 @@ img {
     word-spacing: 20px;
 }
 
-/*Colocar Propriedades da foto aqui (Não esquecer de criar a classe no html)*/
+.section {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
 
 .titulo__home {
     font-family: "Manrope", sans-serif;
